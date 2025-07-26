@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>Რეგისტრაცია / შესვლა</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2 id="form-title">Რეგისტრაცია</h2>
+    
+    <form id="auth-form">
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit" id="submit-btn">დარეგისტრირება</button>
+    </form>
+
+    <p id="switch-text">
+      უკვე გაქვს ანგარიში? <a href="#" id="toggle-form">შესვლა</a>
+    </p>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
